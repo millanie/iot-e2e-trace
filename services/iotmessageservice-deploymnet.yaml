@@ -17,5 +17,5 @@ spec:
     spec:
       containers:
       - name: iotmessageservice
-        image: iotdistracingacr.azurecr.io/iotmessageservice:v1
+        image: soneacr.azurecr.io/iotmessageservice:v1
         imagePullPolicy: Always

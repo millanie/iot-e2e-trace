@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: apiservice
-        image: iotdistracingacr.azurecr.io/apiservice:v1
+        image: soneacr.azurecr.io/apiservice:v1
         imagePullPolicy: Always
         ports:
         - containerPort: 80

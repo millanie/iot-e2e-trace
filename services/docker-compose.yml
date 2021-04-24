@@ -3,7 +3,7 @@ version: '3.4'
 services:
 
   apiserivce:
-    image: iotdistracingacr.azurecr.io/apiservice:v1
+    image: soneacr.azurecr.io/apiservice:v1
 
   iotmessageservice:
-    image: iotdistracingacr.azurecr.io/iotmessageservice:v1
+    image: soneacr.azurecr.io/iotmessageservice:v1
